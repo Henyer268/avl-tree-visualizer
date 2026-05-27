@@ -39,7 +39,7 @@
 //          los campos de insertar, eliminar y buscar solo aceptan números.
 //
 // Modified by: Henyer Melendez
-// Year: 2026
+// Year: 2026 
 // Changes: New color scheme and general visual redesign,
 //          header and footer gradients,
 //          dark mode implementation with toggle button,
