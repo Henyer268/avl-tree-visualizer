@@ -387,7 +387,12 @@ function initCanvas()
 	var height=getCookie("VisualizationHeight");
 	if (height == null || height == "")
 	{
-		height = canvas.height;
+		height = window.innerHeight 
+         - document.getElementById("header").offsetHeight 
+         - document.getElementById("algoControlSection").offsetHeight 
+         - document.getElementById("generalAnimationControlSection").offsetHeight 
+         - document.getElementById("footer").offsetHeight 
+         - 20;
 	}
 	else
 	{
